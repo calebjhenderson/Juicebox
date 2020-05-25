@@ -54,7 +54,7 @@ postsRouter.post('/', requireUser, async (req, res, next) => {
   }
 
   try{
-
+    
     postData.title = title
     postData.content = content
     postData.user = user.authorId
